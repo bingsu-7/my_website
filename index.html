@@ -1,11 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <p>This is my website for the portfolio</p>
-</body>
+    <link rel="stylesheet" href="css/00_style.css" />
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <div id="page">
+      <div class="gnb">
+        <div class="menu">
+          <img src="icon/hamburger_menu7px.png" alt="햄버거" />
+        </div>
+        <div class="intro">
+          김소영의 웹디자인 포트폴리오입니다. 왼쪽 메뉴를 확인해주세요.
+        </div>
+      </div>
+      <ul class="snb">
+        <li><a href="milosome.html">MILOSOME</a></li>
+        <li><a href="b-yogurt.html">b-yogurt(예정)</a></li>
+        <li><a href="index.html">HOME</a></li>
+      </ul>
+      <p class="empty">&nbsp;</p>
+      <div
+        class="parallax-window"
+        data-parallax="scroll"
+        data-image-src="img/beach.jpg"
+      ></div>
+      <p class="empty">&nbsp;</p>
+      <div
+        class="parallax-window"
+        data-parallax="scroll"
+        data-image-src="./img/aurora.jpg"
+      ></div>
+    </div>
+    <!-- TODO : jquery cdn(인터넷주소) -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <!-- 공식홈페이지:  https://pixelcog.github.io/parallax.js/ -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/parallax/parallax.js"></script>
+    <script src="js/index.js"></script>
+  </body>
 </html>

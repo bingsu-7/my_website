@@ -1,0 +1,8 @@
+.snb { background: gainsboro; height: 100vh; display: none;position: fixed; left: 0; top: 0; z-index: 5; padding-top: 1rem; } 
+li { padding: 1rem 1rem; } 
+.menu { width: 1rem; height: 1rem; margin: 1rem; } 
+img { max-width: 100%; } 
+.gnb { display: flex; position: fixed; left: 0;top: 0;} 
+.intro { height: 1rem; margin: 1rem; } 
+.parallax-window { height: 70vh; }
+.empty{height: 3rem;}
