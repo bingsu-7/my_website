@@ -1,8 +1,19 @@
-.snb { background: gainsboro; height: 100vh; display: none;position: fixed; left: 0; top: 0; z-index: 5; padding-top: 1rem; } 
-li { padding: 1rem 1rem; } 
-.menu { width: 1rem; height: 1rem; margin: 1rem; } 
-img { max-width: 100%; } 
+.snb { background: gainsboro; height: 100%; display: none;position: fixed; left: 0; top: 0; z-index: 5;padding: 1rem 1rem 0 1rem;font-weight: 500;} 
+li { padding: 1rem 0; } 
+
 .gnb { display: flex; position: fixed; left: 0;top: 0;} 
-.intro { height: 1rem; margin: 1rem; } 
+.intro { height: 1rem; padding: 1rem;} 
 .parallax-window { height: 70vh; }
-.empty{height: 3rem;}
+.empty{height: 3rem;} /* TODO: 태블릿 */
+@media screen and (min-width: 768px){
+.intro {padding: 1rem 0 1rem 15rem;} 
+
+}
+
+/* TODO: pc */
+@media screen and (min-width: 1280px) {
+
+.intro {padding: 1rem 0 1rem 32rem;} 
+
+}
+

@@ -5,24 +5,162 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="css/00_style.css" />
+    <link rel="stylesheet" href="css/00_common.css" />
     <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/milosome.css" />
   </head>
   <body>
     <div id="page">
+      <div id="fab"><img src="icon/up_arrow_7px.png" alt="위로 가기" /></div>
       <div class="menu">
         <img src="icon/hamburger_menu7px.png" alt="햄버거" />
       </div>
-     <ul class="snb">
+      <div class="btns">
+        <div class="btn-wrapper">
+          <button class="btn active t-left t-first" data-tab="btn1">
+            PORTFOLIO
+          </button>
+        </div>
+        <div class="btn-wrapper">
+          <button class="btn t-center" data-tab="btn2">MAIN</button>
+        </div>
+        <div class="btn-wrapper">
+          <button class="btn t-right" data-tab="btn3">DETAIL</button>
+        </div>
+        <div class="btn-wrapper">
+          <button class="btn t-left" data-tab="btn4">CATOGORY[TOP]</button>
+        </div>
+        <div class="btn-wrapper">
+          <button class="btn t-center" data-tab="btn5">LOGIN&JOIN</button>
+        </div>
+        <div class="btn-wrapper">
+          <button class="btn t-right" data-tab="btn6">REVIEW</button>
+        </div>
+      </div>
+
+      <div class="clear"></div>
+      <ul class="snb">
         <li><a href="milosome.html">MILOSOME</a></li>
         <li><a href="b-yogurt.html">b-yogurt(예정)</a></li>
         <li><a href="index.html">HOME</a></li>
       </ul>
-     <iframe src="pdf/250620웹디자이너_포트폴리오.pdf" width="100%" height="650px"></iframe>
-
+      <div class="content active" id="btn1">
+        <div class="portfolio">
+          <img
+            src="img/milosome_portfolio_1920_29420.jpg"
+            alt="모바일 웹디자인"
+          />
+        </div>
+      </div>
+      <div class="content" id="btn2">
+        <div class="designs">
+          <img
+            class="mobile"
+            src="img/milosome_main_mobile_393_3485.jpg"
+            alt="모바일 메인 웹디자인"
+          />
+        </div>
+        <div class="designs">
+          <img
+            src="img/milosome_main_tablet_768_3423.jpg"
+            alt="태블릿 메인 웹디자인"
+          />
+        </div>
+        <div class="designs">
+          <img
+            src="img/milosome_main_desktop_1280_3980.jpg"
+            alt="데스크탑 메인 웹디자인"
+          />
+        </div>
+      </div>
+      <div class="content" id="btn3">
+        <div class="designs">
+          <img
+            class="mobile"
+            src="img/milosome_detail_mobile_393_10978.jpg"
+            alt="모바일 상세 웹디자인"
+          />
+        </div>
+        <div class="designs">
+          <img
+            src="img/milosome_detail_tablet_768_14464.jpg"
+            alt="태블릿 상세 웹디자인"
+          />
+        </div>
+        <div class="designs">
+          <img
+            src="img/milosome_detail_desktop_1280_17532.jpg"
+            alt="데스크탑 상세 웹디자인"
+          />
+        </div>
+      </div>
+      <div class="content" id="btn4">
+        <div class="designs">
+          <img
+            class="mobile"
+            src="img/milosome_category_mobile_393_1646.jpg"
+            alt="모바일 카테고리 웹디자인"
+          />
+        </div>
+        <div class="designs">
+          <img
+            src="img/milosome_category_tablet_768_2014.jpg"
+            alt="태블릿 카테고리 웹디자인"
+          />
+        </div>
+        <div class="designs">
+          <img
+            src="img/milosome_category_desktop_1280_1946.jpg"
+            alt="데스크탑 카테고리 웹디자인"
+          />
+        </div>
+      </div>
+      <div class="content" id="btn5">
+        <div class="designs">
+          <img
+            class="mobile"
+            src="img/milosome_login&join_mobile_393_6899.png"
+            alt="모바일 로그인&가입 웹디자인"
+          />
+        </div>
+        <div class="designs">
+          <img
+            src="img/milosome_login&join_tablet_768_8425.png"
+            alt="태블릿 로그인&가입 웹디자인"
+          />
+        </div>
+        <div class="designs">
+          <img
+            src="img/milosome_login&join_desktop_1280_7873.png"
+            alt="데스크탑 로그인&가입 웹디자인"
+          />
+        </div>
+      </div>
+      <div class="content" id="btn6">
+        <div class="designs">
+          <img
+            class="mobile"
+            src="img/milosome_review_mobile_393_1455.jpg"
+            alt="모바일 리뷰 웹디자인"
+          />
+        </div>
+        <div class="designs">
+          <img
+            src="img/milosome_review_tablet_768_1530.jpg"
+            alt="태블릿 리뷰 웹디자인"
+          />
+        </div>
+        <div class="designs">
+          <img
+            src="img/milosome_review_desktop_1280_1772.jpg"
+            alt="데스크탑 리뷰 웹디자인"
+          />
+        </div>
+      </div>
     </div>
-    
     <!-- TODO : jquery cdn(인터넷주소) -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="js/index.js"></script>
+    <script src="js/00_common.js"></script>
+    <script src="js/milosome.js"></script>
   </body>
 </html>
