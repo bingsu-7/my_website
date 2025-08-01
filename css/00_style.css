@@ -7,7 +7,7 @@
 * { margin: 0; padding: 0; box-sizing: border-box; } 
 /* body: 웹폰트 */
 body { font-family: "pretendard", "Roboto", sans-serif; } 
-li { list-style-type: none; } 
+li { list-style-type: none; }
 a { text-decoration: none; color: var(--black);}
 label{ display: inline-block;}
 .clear { clear: both; } 
