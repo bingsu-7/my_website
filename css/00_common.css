@@ -1,17 +1,16 @@
-.menu { width: 3.5rem; height: 1.5rem; padding: 1rem;margin: -4px 0 1rem 0;} 
-.menu > img { max-width: 100%;} 
-#page{font-size: 1rem;}
+.menu { width: 3.5rem; height: 1.5rem; padding: 1rem; margin: -4px 0 1rem 0; } 
+.menu > img { max-width: 100%; } 
+#page { font-size: 1rem; } 
 /* fab */
-#fab {
-        width: 50px;
-        height: 50px;
-        background-color: gainsboro;
-        border-radius: 50%;
-        position: fixed;
-        bottom: 3vh;
-        left: 95vw;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }     
-    #fab > img {max-width: 60%;}  
+#fab { width: 50px; height: 50px; background-color: gainsboro; border-radius: 50%; position: fixed; bottom: 3vh; left: 85vw; display: flex; justify-content: center; align-items: center; } 
+ #fab > img { max-width: 60%; } 
+/* TODO: 태블릿 */
+@media screen and (min-width: 768px) {.intro { padding: 1rem 0 1rem 15rem; } 
+#fab { 
+ left: 92vw; } 
+ }
+
+/* TODO: pc */
+@media screen and (min-width: 1280px) {
+.intro { padding: 1rem 0 1rem 32rem; } 
+}
