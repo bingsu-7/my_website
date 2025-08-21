@@ -3,17 +3,15 @@ li { padding: 1rem 0; }
 
 .gnb { display: flex; position: fixed; left: 0;top: 0;} 
 .intro { height: 1rem; padding: 1rem;} 
-.parallax-window { height: 70vh; }
-.empty{height: 3rem;} /* TODO: 태블릿 */
+.parallax-window { height: 50vh;}
+.empty{height: 3rem;}
+/* TODO: 태블릿 */
 @media screen and (min-width: 768px){
 .intro {padding: 1rem 0 1rem 15rem;} 
-
+.parallax-window { height: 70vh; }
 }
-
 /* TODO: pc */
 @media screen and (min-width: 1280px) {
-
 .intro {padding: 1rem 0 1rem 32rem;} 
-
 }
 
