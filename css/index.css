@@ -1,10 +1,5 @@
-.snb { background: gainsboro; height: 100%; display: none;position: fixed; left: 0; top: 0; z-index: 5;padding: 1rem 1rem 0 1rem;font-weight: 500;} 
-li { padding: 1rem 0; } 
-
-.gnb { display: flex; position: fixed; left: 0;top: 0;} 
 .intro { height: 1rem; padding: 1rem;} 
 .parallax-window { height: 50vh;}
-.empty{height: 3rem;}
 /* TODO: 태블릿 */
 @media screen and (min-width: 768px){
 .intro {padding: 1rem 0 1rem 15rem;} 

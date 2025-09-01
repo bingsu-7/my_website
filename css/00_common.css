@@ -1,3 +1,8 @@
+.gnb { display: flex; position: fixed; left: 0;top: 0;} 
+.snb { background: gainsboro; height: 100%; display: none;position: fixed; left: 0; top: 0; z-index: 5;padding: 1rem 1rem 0 1rem;font-weight: 500;} 
+.empty{height: 3rem;}
+
+li { padding: 1rem 0; } 
 .menu { width: 3.5rem; height: 1.5rem; padding: 1rem; margin: -4px 0 1rem 0; } 
 .menu > img { max-width: 100%; } 
 #page { font-size: 1rem; } 
