@@ -1,0 +1,42 @@
+ /* .content { width: 100%; padding-top: 1rem; } */
+ .active { display: block; text-decoration: underline; text-underline-offset: 20%; } 
+ .btn-wrapper { width: 33.3%; float: left; padding: 1rem; } 
+ .btn-wrapper .btn { width: 100%; } 
+ .t-left { text-align: left; } 
+
+ .t-right { text-align: right; } 
+ .t-center { text-align: center; padding-left: 2.2rem; } 
+ .btn { font-weight: 700; } 
+ .portfolio { width: 100%; position: relative; } 
+ .portfolio img { max-width: 100%; } 
+ .designs { width: 100%; position: relative; } 
+ .designs img { max-width: 100%; } 
+
+ video { width: 100vw; height: auto; } 
+
+.portfolio .gif-practice { position: absolute; right:5%; bottom: 5%; font-size: 0.45rem; text-decoration: underline; } 
+ .designs .gif-practice { position: absolute; right:5%; bottom: 5%; font-size: 0.45rem; text-decoration: underline; } 
+ /* TODO: 태블릿 */
+@media screen and (min-width: 768px){
+ .portfolio { display: flex; justify-content: center; } 
+.portfolio img { max-width: 90%; } 
+ /* .btn-wrapper { gap: 2rem; } */
+ .designs { width: 100%; display: flex; justify-content: center; } 
+ .designs img { max-width: 80%; } 
+ .btn-wrapper { padding: 1rem 5rem; } 
+ video { width: 80%; } 
+.portfolio .gif-practice { right: 12%; bottom: 7%; font-size: 0.7rem;} 
+.designs .gif-practice { right: 12%; bottom: 7%; font-size: 0.7rem;} 
+ }
+
+/* TODO: pc */
+@media screen and (min-width: 1280px) {.portfolio img { max-width: 70%; } 
+ .btn-wrapper { width: 15%; padding-right: 2rem; } 
+ .t-right { text-align: center; } 
+ .t-left { text-align: center; } 
+ .btns { padding-left: 6.5%; } 
+ .designs img { max-width: 70%; } 
+ video { width: 70%; } 
+.portfolio .gif-practice { right: 20%; bottom: 10%; font-size: 0.9rem; } 
+.designs .gif-practice { right: 20%; bottom: 10%; font-size: 0.9rem; } 
+ }
