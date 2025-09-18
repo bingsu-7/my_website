@@ -14,3 +14,11 @@ $(".menu, .snb").hover(
             $("html,body").animate({scrollTop: 0},1000);
         })
     })
+// 버튼 누르면 내용 바뀜
+    $(function () {
+        $(".btn").click(function () {
+          $(".btn,.content").removeClass("active");
+          $(this).addClass("active");
+          $("#" + $(this).data("tab")).addClass("active").css("text-decoration","none")
+        });
+      });
