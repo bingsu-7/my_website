@@ -8,10 +8,7 @@
 .content { display: none; padding-top: 1rem; } 
  .active { display: block; text-decoration: underline; text-underline-offset: 20%; } 
 
- .t-left { text-align: left; } 
- .t-right { text-align: right;} 
- .t-center { text-align: center; padding-left: 2.2rem; } 
- .btn { font-weight: 700; } 
+ .btn { font-weight: 700; }
  .designs { width: 100%; position: relative; } 
  .designs img { max-width: 100%; } 
 
@@ -19,7 +16,7 @@
 
  .designs .gif-practice { position: absolute; right:5%; bottom: 5%; font-size: 0.45rem; text-decoration: underline; } 
 .m-top{margin-top: 3rem;}
- 
+ .towel{text-align: center;font-size: 1.1rem;margin-top: 0.5rem;}
  /* TODO: 태블릿 */
 @media screen and (min-width: 768px) { /* .btn-wrapper { gap: 2rem; } */
  .designs { width: 100%; display: flex; justify-content: center; } 
@@ -27,6 +24,7 @@
  .btn-wrapper { width: 20%; margin-left: 2rem; } 
  video { width: 80%; } 
 .designs .gif-practice { right: 12%; bottom: 7%; font-size: 0.7rem; }
+ .btn1{padding-left: 2.5rem;} 
  }
 
 /* TODO: pc */
