@@ -34,6 +34,7 @@
  .t-left { text-align: center; } 
  .btns { padding-left: 6.5%; } 
  .designs img { max-width: 70%; } 
- video { width: 70%; } 
+ video { width: 70%;}
+ .sns-video{width: 40%;} 
 .designs .gif-practice { right: 20%; bottom: 10%; font-size: 0.9rem; } 
  }
