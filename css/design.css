@@ -11,20 +11,23 @@
  .btn { font-weight: 700; }
  .designs { width: 100%; position: relative; } 
  .designs img { max-width: 100%; } 
+.pos {position: absolute;bottom: 8%;left: 2%;font-size: 0.9rem;}
 
  video { width: 100vw; height: auto; } 
 
  .designs .gif-practice { position: absolute; right:5%; bottom: 5%; font-size: 0.45rem; text-decoration: underline; } 
-.m-top{margin-top: 3rem;}
+.m-top{margin-top: 2rem;}
  .towel{text-align: center;font-size: 1.1rem;margin-top: 0.5rem;}
- /* TODO: 태블릿 */
+  /* TODO: 태블릿 */
 @media screen and (min-width: 768px) { /* .btn-wrapper { gap: 2rem; } */
  .designs { width: 100%; display: flex; justify-content: center; } 
  .designs img { max-width: 80%; } 
  .btn-wrapper { width: 20%; margin-left: 2rem; } 
  video { width: 80%; } 
 .designs .gif-practice { right: 12%; bottom: 7%; font-size: 0.7rem; }
- .btn1{padding-left: 2.5rem;} 
+ .btn1{padding-left: 2.5rem;}
+ .pos {bottom: 7%;left: 12%;font-size: 1rem;}
+ .m-top{margin-top: 3rem;}
  }
 
 /* TODO: pc */
@@ -36,5 +39,7 @@
  .designs img { max-width: 70%; } 
  video { width: 70%;}
  .sns-video{width: 40%;} 
-.designs .gif-practice { right: 20%; bottom: 10%; font-size: 0.9rem; } 
+.designs .gif-practice { right: 20%; bottom: 10%; font-size: 0.9rem; }
+ .pos {left: 20%;}
+ .m-top{margin-top: 4rem;}
  }
